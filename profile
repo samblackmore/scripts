@@ -9,7 +9,7 @@ normal(){
 }
 
 changeDir(){
-  cd $1 && dim && pwd && normal && ls && echo
+  cd "$1" && dim && pwd && normal && ls && echo
 }
 
 alias cd=changeDir
